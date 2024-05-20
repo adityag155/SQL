@@ -1,0 +1,17 @@
+//We can write in two ways:
+//1st way
+//To create database we can use following command-->
+CREATE DATABASE temp1;
+
+//To delete any database or table we can use folowing command-->
+DROP DATABASE temp1;
+
+//2nd way:
+//To create database we can use following command-->
+create database temp2; 
+
+//To delete any database or table we can use folowing command-->
+drop database temp2;
+
+
+CREATE DATABASE college;
