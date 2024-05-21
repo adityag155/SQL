@@ -19,3 +19,9 @@ INSERT INTO student(2, "Akki", 25);
 
 //To see that values in the table:
 SELECT * FROM student;
+
+//To see database command is :
+show DATABASES;
+
+//To see table command is:
+show TABLES;
