@@ -20,3 +20,14 @@ values
 select name, city FROM students;
 
 SELECT * FROM students WHERE city = "Pune";              //it will print only whos city name is pune
+
+//By using this command we can apply many codition and display o/p:
+SELECT * FROM students WHERE marks>=80 AND city="Pune";
+
+
+//OPERATION PERFORMED BY WHERE CLAUSE
+//# Arithmetic Operator:+,-,*,/%
+//Ex of Add:
+SELECT * FROM students WHERE marks +15 >= 100;            //Here use +15 to display that if we add 15 in marks then whos marks are geater than equal to 100
+
+
