@@ -1,0 +1,22 @@
+// Basic commands
+CREATE DATABASE college;
+
+USE college;
+
+CREATE TABLE student(
+id INT PRIMARY KEY,
+name VARCHAR(50),
+age INT NOT NULL
+);
+drop table student;
+
+INSERT INTO student VALUES(1, "Aditya",24);
+INSERT INTO student VALUES(2, "Akshay",25);
+
+select * from student;
+
+show DATABASES;
+
+show TABLES;
+
+
