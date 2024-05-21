@@ -1,0 +1,21 @@
+//Create database:->In that database we can create table:
+CREATE DATABASE db_name;
+CREATE DATABASE college;
+
+//TO Delete Database:
+USE db_name;
+DROP college;
+
+//CREATING TABLE:  In this we 1st create table by following command and then we can add column name, DATA-TYPE(int,char), & Constarint:
+CREATE TABLE student(
+id INT PRIMARY KEY,
+name varchar(50),
+age INT NOT NULL
+);
+
+//To insert data into table in that format:
+INSERT INTO student(1, "Aditya", 24);
+INSERT INTO student(2, "Akki", 25);
+
+//To see that values in the table:
+SELECT * FROM student;
