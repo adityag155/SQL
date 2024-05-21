@@ -1,0 +1,10 @@
+//Default constraint:
+
+CREATE TABLE Emp(
+id int ,
+salary int Default 2500 
+);
+
+insert into Emp (id) values(101);
+
+select * from Emp;
