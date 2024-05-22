@@ -1,0 +1,13 @@
+//Aggregate Function:(MAX,MIN,AVG,COUNT)
+
+//Min: it will show min marks
+select min(marks) from students ;
+
+//Max: it will show max marks
+select max(marks) from students ;
+
+//COUNT:It will count how many students on rollno:
+select count(roll) from students ;
+
+//AVG:It will calculate average of marks
+select AVG(marks) from students ;
