@@ -1,0 +1,7 @@
+//Limit clause
+//it can be used to apply limit on the rows to be return: if we apply limit 3 then it print only 3 rows:
+
+SELECT * FROM students LIMIT 3;
+
+//It will print condition wise 1st 3
+SELECT * FROM students WHERE marks>70 LIMIT 3;
