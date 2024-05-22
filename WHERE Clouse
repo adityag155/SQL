@@ -22,12 +22,31 @@ select name, city FROM students;
 SELECT * FROM students WHERE city = "Pune";              //it will print only whos city name is pune
 
 //By using this command we can apply many codition and display o/p:
-SELECT * FROM students WHERE marks>=80 AND city="Pune";
 
+SELECT * FROM students WHERE marks>=80 AND city="Pune";
 
 //OPERATION PERFORMED BY WHERE CLAUSE
 //# Arithmetic Operator:+,-,*,/%
 //Ex of Add:
 SELECT * FROM students WHERE marks +15 >= 100;            //Here use +15 to display that if we add 15 in marks then whos marks are geater than equal to 100
 
+//Comparison operator: =,!=, >,<,>=,<=
+//Equal to(=): It will print equal to condition 
+SELECT * FROM students WHERE marks= 85;
 
+//Logical Operators: AND,OR,NOT, IN, BETWEEN,ALL, LIKE, ANY
+
+//AND Operator: It will check both condition are true then print only:
+SELECT * FROM students WHERE marks>=80 AND city="Pune";
+
+//OR Operator: It will check both condition if one is true then print :
+SELECT * FROM students WHERE marks>=80 OR city="Pune";
+
+//Between Operator: It will print in bewteen two range :
+SELECT * FROM students WHERE marks BETWEEN 80 AND 90 ;
+
+//IN Operator: It can be used tp print the result that we give:we give city=pune katraj then it print those only:
+SELECT * FROM students WHERE city IN("Pune","Katraj");
+
+//NOT IN operator: it will print the result based on which we mention and that is not included in that
+SELECT * FROM students WHERE city NOT IN("Pune","Katraj");
