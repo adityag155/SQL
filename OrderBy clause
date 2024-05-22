@@ -1,0 +1,11 @@
+//Order By clause:
+//It will print data in Ascending or Descending order:
+
+//ASC Order:
+SELECT * FROM students ORDER BY marks ASC;
+
+//DESC Order:
+SELECT * FROM students ORDER BY marks DESC;
+
+//We can apply limit also n this to see top3 results:
+SELECT * FROM students ORDER BY marks DESC LIMIT 3;
