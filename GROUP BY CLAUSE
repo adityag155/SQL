@@ -1,0 +1,14 @@
+//GROUP BY CLAUSE
+
+//Group the rows that have same vlues
+//It collect data from multiple records & group the result by one
+//(It make group of data based on their similar values)
+
+//Here make group of student based on their city:
+SELECT city FROM students GROUP BY city;
+
+//It will count roll no and make group of same city
+SELECT city, COUNT(roll) FROM students GROUP BY city;
+
+//Here it amke group of same city & name 
+SELECT city, name, COUNT(roll) FROM students GROUP BY city,name ;
