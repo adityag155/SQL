@@ -3,3 +3,9 @@ ALTER TABLE students ADD COLUMN age INT;
 
 //To DELETE coulmn in table:
 ALTER TABLE students DROP COLUMN age INT;   
+
+//Modify Column:
+ALTER TABLE student MODIFY age VARCHAR(2);
+
+//Change column name:
+ALTER TABLE student MODIFY age stu_age Int;
