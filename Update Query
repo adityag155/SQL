@@ -1,0 +1,9 @@
+//Update any data from Table:
+
+UPDATE students SET grade = "O" WHERE grade = "A";
+
+//Here name will updated
+UPDATE students SET name="Chetan" WHERE name="Chetan D";
+
+//Here marks updated of all students by 1:
+UPDATE students SET marks= marks+1;
