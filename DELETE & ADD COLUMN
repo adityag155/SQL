@@ -1,0 +1,5 @@
+//To add coulmn in table:
+ALTER TABLE students ADD COLUMN age INT;   
+
+//To DELETE coulmn in table:
+ALTER TABLE students DROP COLUMN age INT;   
