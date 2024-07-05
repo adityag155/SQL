@@ -3,3 +3,6 @@
 select * from teacher where name like '%d';
 
 select * from teacher where name like 'd%';
+
+//command for find on 2nd char:
+select * from teacher where name like '_d%';
