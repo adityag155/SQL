@@ -12,3 +12,6 @@ select * from teacher where name like '_d%';
 
 //group of city where is u char and its count: 
 select city,count(city) from teacher group by city having city like '%u%';
+
+//to find max and min at same time:
+select max(salary),min(salary) from teacher;
