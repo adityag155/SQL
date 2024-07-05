@@ -1,0 +1,5 @@
+//command to find data from last or first word
+
+select * from teacher where name like '%d';
+
+select * from teacher where name like 'd%';
