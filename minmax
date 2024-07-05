@@ -1,0 +1,3 @@
+//find min and max:
+
+select * from teacher where salary In(select max(salary) from teacher union select min(salary) from teacher);
